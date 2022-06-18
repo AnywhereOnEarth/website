@@ -1,11 +1,14 @@
 html,
 body {
-    height: 100%;
-    margin: 0;
     color: darkblue;
     text-align: center;
     background: linear-gradient(lightskyblue, #d0be90);
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 .box {
