@@ -27,7 +27,7 @@ body {
 }
 
 .roundedcorner {
-    width: 90%;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 5%;
