@@ -1,16 +1,11 @@
-html{
-    background: linear-gradient(lightskyblue, #d0be90);
-    min-height: 100%;
-}
-
-
-body {
+html,body {
     color: #00008b;
     text-align: center;
-    /* background-color: #87cefa; */
-    /* min-height: 100%; */
+    background: linear-gradient(lightskyblue, #d0be90);
+    background-color: #87cefa;
     height: 100%;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
