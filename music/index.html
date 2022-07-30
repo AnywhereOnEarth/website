@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>Anywhere on Earth</title>
+    <title>Anywhere on Earth - Music</title>
     <meta charset="UTF-8" , name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="style2.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" sizes="any"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌎</text></svg>" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <!-- <base href="http://anywhereonearth.com/" target="_blank"> -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css"> -->
     <!-- <style type="text/css">
 
@@ -20,6 +21,9 @@
 
 
 <body>
+    <!---------------------------------------------------->
+    <!--------------------- elements --------------------->
+    <!---------------------------------------------------->
     <!-- inline svgs definitions -->
     <svg style="display: none">
         <defs>
@@ -81,74 +85,75 @@
         </defs>
     </svg>
 
-    <nav>
+    <!-- navigation bar -->
+    <!-- <nav>
         <ul>
-            <li>Home</li>
-            <li>Music</li>
-            <li>Contact</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/music">Music</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
-    </nav>
+    </nav> -->
+
+    <header>
+        <div class="container container-nav">
+          <div class="titles">
+            <a href="/"><h1>Anywhere on Earth</h1></a>
+            <!-- <p class="subtitle">Two-piece sick ass music</p> -->
+          </div>
+          <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/music">Music</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
 
-
-    <!-- <header>
-        <h1>asdf</h1>
-    </header> -->
-
-    <!-- <button>
-        <svg class="svg-icon" role="img" aria-hidden="true" focusable="false">
-            <use href="#twitter" />
-        </svg>
-    </button> -->
-
+    <!---------------------------------------------------->
+    <!--------------------- content ---------------------->
+    <!---------------------------------------------------->
     <!-- cooking by the book -->
     <div class="content-wrapper">
         <section class="striped-border">
             <article>
-                <img src="./images/music/cooking.jpg" class="rotate"
+                <img src="/img/music/cooking.jpg" class="rotate"
                     alt="A large pink cake sitting on a railing in front of a grass field with fir trees in the background."
                     width=400, height=400>
             </article>
             <article>
                 <h1>Cooking by The Book</h1>
-                <h2>25 March 2022</h2>
+                <h2>March 25, 2022</h2>
                 <p>The dream, finally realized. Our cover of the bombastic song from the legendary show LazyTown.</p>
                 <ul>
                     <li>Cooking by The Book</li>
                 </ul>
-                <a href="https://music.apple.com/us/album/cooking-by-the-book-single/1616232236">
-                    <button type="button">
-                        <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
-                            <use href="#apple" />
-                        </svg>
-                        Apple Music
-                    </button>
+                <a href="https://music.apple.com/us/album/cooking-by-the-book-single/1616232236" class="button">
+                    <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
+                        <use href="#apple" />
+                    </svg>
+                    Apple Music
                 </a>
-                <a href="https://open.spotify.com/album/4KarOCCkJbmxojCn2tMiGA">
-                    <button type="button">
-                        <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
-                            <use href="#spotify" />
-                        </svg>
-                        Spotify
-                    </button>
+                <a href="https://open.spotify.com/album/4KarOCCkJbmxojCn2tMiGA" class="button">
+                    <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
+                        <use href="#spotify" />
+                    </svg>
+                    Spotify
                 </a>
-                <a href="https://www.youtube.com/watch?v=Y8XElr_W4oA">
-                    <button type="button">
-                        <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
-                            <use href="#youtube" />
-                        </svg>
-                        YouTube
-                    </button>
+                <a href="https://www.youtube.com/watch?v=Y8XElr_W4oA" class="button">
+                    <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
+                        <use href="#youtube" />
+                    </svg>
+                    YouTube
                 </a>
-
-
             </article>
         </section>
 
         <!-- anywhere on earth -->
         <section class="striped-border">
             <article>
-                <img src="./images/music/ep.jpg"
+                <img src="/img/music/ep.jpg"
                     alt="Anywhere on Earth album cover showing serif text in the northeast quadrant. Southern half of the art shows a large earth map globe beach ball just after being hit by a raised arm."
                     width=400, height=400> <!-- class="roundedcorner" -->
             </article>
@@ -162,45 +167,47 @@
                     <li>Seeking a Friend</li>
                 </ul>
 
-                <a href="https://music.apple.com/us/album/anywhere-on-earth-single/1597679839">
-                    <button type="button">
-                        <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
-                            <use href="#apple" />
-                        </svg>
-                        Apple Music
-                    </button>
+                <a href="https://music.apple.com/us/album/anywhere-on-earth-single/1597679839" class="button">
+                    <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
+                        <use href="#apple" />
+                    </svg>
+                    Apple Music
                 </a>
-                <a href="https://open.spotify.com/album/1SlTihi3J1xKwABstGsEgI">
-                    <button type="button">
-                        <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
-                            <use href="#spotify" />
-                        </svg>
-                        Spotify
-                    </button>
+                <a href="https://open.spotify.com/album/1SlTihi3J1xKwABstGsEgI" class="button">
+                    <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
+                        <use href="#spotify" />
+                    </svg>
+                    Spotify
                 </a>
-                <a href="https://www.youtube.com/watch?v=ElnizDevz_0&list=OLAK5uy_n74yIOJMHvNQDJs9SAbcK4hs39lU-l3HM">
-                    <button type="button">
-                        <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
-                            <use href="#youtube" />
-                        </svg>
-                        YouTube
-                    </button>
+                <a href="https://www.youtube.com/watch?v=ElnizDevz_0&list=OLAK5uy_n74yIOJMHvNQDJs9SAbcK4hs39lU-l3HM"
+                    class="button">
+                    <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
+                        <use href="#youtube" />
+                    </svg>
+                    YouTube
                 </a>
-                <a href="https://anywhereonearthmusic.bandcamp.com/album/anywhere-on-earth">
-                    <button type="button">
-                        <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
-                            <use href="#bandcamp" />
-                        </svg>
-                        Bandcamp
-                    </button>
+                <a href="https://anywhereonearthmusic.bandcamp.com/album/anywhere-on-earth" class="button">
+                    <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
+                        <use href="#bandcamp" />
+                    </svg>
+                    Bandcamp
+                </a>
+                <a href="https://soundcloud.com/anywhereonearthmusic/sets/anywhereonearth" class="button">
+                    <svg class="svg-icon" role="img" height="10" width="10" aria-hidden="true" focusable="false">
+                        <use href="#soundcloud" />
+                    </svg>
+                    SoundCloud
                 </a>
 
             </article>
         </section>
     </div>
 
+    <!---------------------------------------------------->
+    <!---------------------- footer ---------------------->
+    <!---------------------------------------------------->
 
-    <footer>&copy; 2022 Anywhere on Earth</footer>
+    <footer>&copy; Anywhere on Earth</footer>
 
 </body>
 
