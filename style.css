@@ -432,7 +432,7 @@ nav li a:active {
 
 .striped-border {
     border: solid transparent;
-    border-image: url('/img/border3.svg') 10 round;
+    border-image: url('/img/border.svg') 10 round;
     border-radius: 0.5rem;
     border-width: 0.5rem;
 }
