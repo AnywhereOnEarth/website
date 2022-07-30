@@ -87,7 +87,7 @@ nav a {
 .titles a:focus{
     color: lightcoral;
     outline-color: red;
-    border: 0.02em solid red;
+    border: 0.1em solid red;
     border-radius: 0.2em;
 }
 
@@ -128,7 +128,7 @@ nav a:focus {
     color: lightcoral;
     /* border-width: 1px; */
     outline-color: red;
-    border: 0.02em solid red;
+    border: 0.1em solid red;
     border-radius: 0.2em;
 }
 
@@ -580,7 +580,7 @@ a.button {
     padding: 0.2em 0.4em;
     color: #00008b;
     background: transparent;
-    border: 0.02em solid #00008b;
+    border: 0.1em solid #00008b;
     border-style: solid;
     border-radius: 0.5em;
     /* border-width: 0.01em; */
